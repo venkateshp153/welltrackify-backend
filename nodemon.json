@@ -1,0 +1,11 @@
+{
+  "execMap": {
+    "js": "node --experimental-vm-modules"
+  },
+  "ext": "js,json,env",
+  "ignore": ["src/tests/**/*", "node_modules/**/*"],
+  "watch": ["src/**/*"],
+  "env": {
+    "NODE_ENV": "development"
+  }
+}
